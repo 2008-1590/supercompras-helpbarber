@@ -1,24 +1,33 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #fffbe6;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8e1;
+  color: #333;
 }
 header {
-    background-color: #ffd600;
-    padding: 20px;
-    text-align: center;
+  background: #ffca28;
+  padding: 20px;
+  text-align: center;
 }
-main {
-    padding: 20px;
+header h1 {
+  margin: 0;
+  color: #000;
+}
+header p {
+  margin: 5px 0 0;
+}
+.highlight, .benefits {
+  padding: 30px;
+  background: #fffde7;
+}
+.highlight h2, .benefits h2 {
+  color: #f57f17;
 }
 footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background: #ffca28;
+  padding: 15px;
+  text-align: center;
+  color: #000;
 }
